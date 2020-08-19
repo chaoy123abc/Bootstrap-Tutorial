@@ -54,8 +54,24 @@ h1 {
     position: absolute;
     padding-left: 50px;
     right: 20%;
+}
+
+@media (max-width: 1060px){
+    #title {
+        text-align: center;
+    }
+
+    .title-image{
+        position: static;
+        transform: rotate(0);
+        width: 80%;
+        
+
+    }
 
 }
+
+
 
 /* Features Section */
 
@@ -133,4 +149,33 @@ h2{
 
 .pricing-column {
     padding: 3% 2%
+}
+
+/* Call to Action */
+
+#cta {
+    background-color: #ff4c68;
+    font-family: "Montserrat";
+    text-align: center;
+    color: #fff;
+    padding: 7% 15%
+}
+
+.cta-heading {
+    font-size: 4rem
+    line-height: 1.5;
+}
+
+/* Footer */
+
+#footer {
+    text-align: center;
+    background-color: #fff;
+    padding: 7% 15%;
+}
+
+.envelope{
+    color: black;
+    margin-top: 0;
+    
 }
